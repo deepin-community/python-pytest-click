@@ -1,0 +1,4 @@
+version=4
+# GitHub hosted projects
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%python-pytest-click-$1.tar.gz%" \
+https://github.com/Stranger6667/pytest-click/tags .*/v?(\d\S+)\.tar\.gz

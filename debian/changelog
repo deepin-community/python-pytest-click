@@ -1,5 +1,24 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-pytest-click (1.1.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Add upstream/metadata
+  * New upstream version 1.1.0
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jerome Charaoui <jerome@riseup.net>  Fri, 18 Feb 2022 21:25:46 -0500
+
+python-pytest-click (1.0.2-2) unstable; urgency=medium
+
+  * Add debian/salsa-ci.yml
+  * Change debian-branch to debian/latest
+  * Switch license name to Expat
+  * Toggle DH_VERBOSE and remove PYBUILD_NAME
+  * Remove override_dh_auto_install, not needed here
+  * Remove debian/source/local-options, not needed
+  * Use "set -efu" for autopkgtests
+
+ -- Jerome Charaoui <jerome@riseup.net>  Sun, 30 Jan 2022 14:54:34 -0500
+
+python-pytest-click (1.0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1004571)
+
+ -- Jerome Charaoui <jerome@riseup.net>  Sun, 30 Jan 2022 11:54:12 -0500
